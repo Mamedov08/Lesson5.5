@@ -3,7 +3,10 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        Boss boss = new Boss(500, 60, "Маг");
+        Boss boss = new Boss();
+        boss.setDamage(50);
+        boss.setHealth(645);
+        boss.setProtection("Маг");
         System.out.println(boss.getDamage() + " " + boss.getHealth() + " " + boss.getProtection());
         createHeroes();
         for (int i = 0; i < createHeroes().length; i++) {
