@@ -2,22 +2,22 @@ package com.company;
 
 public class Boss {
 
-    private int hp;
+    private int health;
     private  int damage;
     private String protection;
 
-    public Boss(int hp, int damage, String protection) {
-        this.hp = hp;
+    public Boss(int health, int damage, String protection) {
+        this.health = health;
         this.damage = damage;
         this.protection = protection;
     }
 
-    public int getHp() {
-        return hp;
+    public int getHealth() {
+        return health;
     }
 
-    public void setHp(int hp) {
-        this.hp = hp;
+    public void setHealth(int health) {
+        this.health = health;
     }
 
     public int getDamage() {

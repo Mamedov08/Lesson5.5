@@ -1,15 +1,15 @@
 package com.company;
 
 public class Hero {
-    private int hp;
+    private int health;
     private int damage;
     private String superAbility;
 
     public Hero() {
     }
 
-    public int getHp() {
-        return hp;
+    public int getHealth() {
+        return health;
     }
 
     public int getDamage() {
@@ -19,14 +19,14 @@ public class Hero {
         return superAbility;
     }
 
-    public Hero(int hp, int damage, String superAbility) {
-        this.hp = hp;
+    public Hero(int health, int damage, String superAbility) {
+        this.health = health;
         this.damage = damage;
         this.superAbility = superAbility;
     }
 
-    public Hero(int hp, int damage) {
-        this.hp = hp;
+    public Hero(int health, int damage) {
+        this.health = health;
         this.damage = damage;
     }
         }
